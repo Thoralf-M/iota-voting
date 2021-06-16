@@ -1,0 +1,16 @@
+[package]
+name = "iota-voting"
+version = "0.1.0"
+authors = ["Thoralf-M <thoralf.mue@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0"
+bee-ledger = "0.4"
+bee-common = "0.4"
+bee-message = "0.1"
+bee-tangle = "0.1"
+iota-client = "1.0"
+tokio = "1.5"
